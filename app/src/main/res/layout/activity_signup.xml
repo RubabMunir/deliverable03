@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Logo -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="2265dp"
+        android:layout_height="1318dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logo2" />
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="1985dp"
+        android:layout_height="214dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:text="           Log In to Your Account"
+        android:textColor="@color/daraz_orange"
+        android:textSize="120sp" /> <!-- Reduced text size -->
+
+    <!-- Email Input -->
+    <!-- Transparent background -->
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="2156dp"
+        android:layout_height="303dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/system_surface_variant_light"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="80dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:textSize="90sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="2164dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/system_surface_variant_light"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="80dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:textSize="90sp" /> <!-- Transparent background -->
+
+    <!-- Forgot Password Link -->
+    <!-- Reduced text size -->
+
+    <!-- Login Button -->
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="2144dp"
+        android:layout_height="264dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:text="                          Forgot your password?"
+        android:textColor="@color/daraz_orange"
+        android:textSize="90sp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="2167dp"
+        android:layout_height="269dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/daraz_orange"
+        android:text="Log In"
+        android:textSize="90sp"
+    android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/google_login"
+        android:layout_width="2167dp"
+        android:layout_height="269dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/daraz_blue"
+        android:text="Continue with Google"
+        android:textSize="90sp"
+    android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/facebook_login"
+        android:layout_width="2167dp"
+        android:layout_height="269dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/daraz_black"
+        android:text="Continue with Facebook"
+        android:textSize="90sp"
+        android:textColor="@android:color/white" />
+
+    <!-- Signup Link -->
+    <TextView
+        android:id="@+id/signup_link"
+        android:layout_width="1748dp"
+        android:layout_height="248dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="          Don't have an account? Sign up"
+        android:textColor="@color/daraz_orange"
+        android:textSize="90sp" /> <!-- Reduced text size -->
+</LinearLayout>
